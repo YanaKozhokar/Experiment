@@ -1,0 +1,30 @@
+.main {
+    background-image: url(../img/cover.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main__welcome {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.main__title {
+    font-size: 78px;
+    color: rgb(255, 255, 255);
+}
+
+.main__subtitle {
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+}
+
+.main__button {
+    margin-top: 20px;
+}
